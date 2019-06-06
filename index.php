@@ -28,8 +28,10 @@
     <h1>Welcome to Math Helper</h1>
      
     <p>Here we offer help with your sticky math problems.  </p>
-    <p>Today is <span style="color: green; font-weight: bold;"><?php echo DATE("M-d-Y"); ?></span>. 
-        It is now <span style="color: red; font-weight: bold;"><?php echo date('g:i:s a'); ?></span>.</p>
+    <p>Today is <span style="color: green; font-weight: bold;"><?php 
+					date_default_timezone_set('US/Eastern');
+					echo DATE("M-d-Y"); ?></span>. 
+        It is now <span style="color: red; font-weight: bold;"><?php date_default_timezone_set('US/Eastern');echo date('g:i:s a'); ?></span>.</p>
     <p style="color: #7932A7; font-style: italic;">Have a wonderful day!</p>
   </div>
  
