@@ -1,8 +1,8 @@
 <?php
 
-$dsn = 'mysql:host=us-cdbr-iron-east-02.cleardb.net;dbname=heroku_21a6d789c6a8678';
-    $username = 'ba86fb28bcf411';
-    $password = '562fc832';
+$dsn = 'mysql:host=us-cdbr-iron-east-02.cleardb.net;dbname=heroku_5e907bdc9b6557b';
+    $username = 'bba22f694b9e4e';
+    $password = 'b6cdee2e';
 
     try {
         $db = new PDO($dsn, $username, $password);

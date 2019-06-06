@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `my_guitar_shop1`
 --
-CREATE DATABASE IF NOT EXISTS `heroku_21a6d789c6a8678` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `heroku_21a6d789c6a8678`;
+CREATE DATABASE IF NOT EXISTS `heroku_5e907bdc9b6557b` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `heroku_5e907bdc9b6557b`;
 
 -- --------------------------------------------------------
 
