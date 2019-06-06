@@ -83,18 +83,7 @@ while($row1 = $result1->fetch()){
   
    
              
-             <form id="form3" action="avgMax.php" method="post">
-                  
-                 <p> Please click the Submit button to get the updated maximum and average number for our List Price.</p>
-                 <input type="submit" name="submit" value="Submit" />
-                <?php if(!empty($max_message)) { ?>
-                <span style="color: red;"><?php echo $max_message;  ?> 
-                <?php } ?>
-                <?php if(!empty($avg_message)) { ?>
-                </span>   <span style="color: green;"><?php echo $avg_message;  ?></span><span style="color: black;">.</span>
-                <?php } ?>
-                <br><br><br>
-             </form>
+            
    </div>
   
  <!-- end #mainContent -->  
