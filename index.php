@@ -19,7 +19,7 @@
 <ul>
 <li><a class="current" href="index.php">Home</a></li>
 <li><a href="calculator.php">Calculator</a></li>
-<li><a href="test.php">Test</a></li>
+
 </ul> </div>
  <!-- end #nav -->  
  <div id="mainContent" style="background-color: #F5FFE0;">
