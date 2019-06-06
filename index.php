@@ -19,6 +19,7 @@
 <ul>
 <li><a class="current" href="index.php">Home</a></li>
 <li><a href="calculator.php">Calculator</a></li>
+<li><a href="test.php">Calculator</a></li>
 
 </ul> </div>
  <!-- end #nav -->  
