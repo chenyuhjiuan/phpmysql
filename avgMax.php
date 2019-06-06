@@ -2,10 +2,10 @@
 
 <?php
 // Make a MySQL Connection
-   $dbhost = 'localhost'; 
- $dbuser = 'root';
- $dbpass = 'ilovejune1';
- $db = 'my_guitar_shop1';
+   $dbhost = 'us-cdbr-iron-east-02.cleardb.net'; 
+ $dbuser = 'ba86fb28bcf411';
+ $dbpass = '562fc832';
+ $db = 'heroku_21a6d789c6a8678';
  $conn = mysql_connect($dbhost, $dbuser, $dbpass);
  mysql_select_db($db);
 
